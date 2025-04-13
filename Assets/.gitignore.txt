@@ -1,0 +1,43 @@
+# === UNITY PROJECT .gitignore ===
+
+# Fichiers/dossiers à exclure générés automatiquement par Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+sysinfo.txt
+
+# Fichiers Visual Studio / Rider
+*.csproj
+*.sln
+*.user
+*.suo
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+.vscode/
+.idea/
+
+# Archives et packages
+*.unitypackage
+*.zip
+*.rar
+*.7z
+
+# Cache Unity
+*.apk
+*.aab
+*.tmp
+
+# Asset store et package manager
+Assets/AssetStoreTools*
+Packages/com.unity.assetgraph*
+
+# Fichiers système
+.DS_Store
+Thumbs.db
